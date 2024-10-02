@@ -2,6 +2,7 @@ import react from "react";
 import style from "./Home.module.css";
 import { Link } from "react-router-dom";
 import Card from "../../Components/Shared/Card/Card";
+import Button from "../../Components/Shared/Button/Button";
 
 const Home = () => {
   return (
@@ -19,10 +20,10 @@ const Home = () => {
 
         {/* button wrapper */}
         <div className={style.buttonWrapper}>
-          <button className={style.buttonStyle}>
-            <span className={style.buttonText}>Create your account</span>
-            <img src="/images/arrow-forward.png" alt="arrow-forward" />
-          </button>
+          <Button
+            buttonText="Create your account"
+            icon="arrow-forward"
+          ></Button>
         </div>
 
         {/* sign in wrapper */}
