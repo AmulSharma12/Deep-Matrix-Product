@@ -9,8 +9,6 @@ const Home = () => {
   // startRegister method
   function startRegister() {
     navigate("/register");
-
-    console.log("button clicked");
   }
 
   return (
