@@ -14,7 +14,8 @@ ul {
 }
 
 body {
-  background: #121212;
+  /* background: #121212; */
+  background-image: linear-gradient(to right, #10062b, black);
   color: #fff;
 }
 

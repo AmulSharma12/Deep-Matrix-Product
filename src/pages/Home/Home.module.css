@@ -1,3 +1,53 @@
-.card{
-    
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Button styling */
+.buttonWrapper {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonStyle {
+  background: #0077ff;
+  width: 15vw;
+  min-height: 25px;
+  color: #ffffff;
+  display: flex;
+  padding: 0 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.buttonText {
+  margin-right: 10px;
+}
+
+/* SignIn styles */
+.signInWrapper {
+  font-size: 15px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.signInText {
+  text-decoration: none;
+  margin-left: 10px;
+  color: #0077ff;
 }
