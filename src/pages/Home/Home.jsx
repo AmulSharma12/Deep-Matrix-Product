@@ -1,10 +1,18 @@
 import react from "react";
 import style from "./Home.module.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Card from "../../Components/Shared/Card/Card";
 import Button from "../../Components/Shared/Button/Button";
 
 const Home = () => {
+  const navigate = useNavigate();
+  // startRegister method
+  function startRegister() {
+    navigate("/register");
+
+    console.log("button clicked");
+  }
+
   return (
     // Card wrapper
     <div className={style.cardWrapper}>
@@ -23,6 +31,7 @@ const Home = () => {
           <Button
             buttonText="Create your account"
             icon="arrow-forward"
+            onClick={startRegister}
           ></Button>
         </div>
 
