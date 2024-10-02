@@ -1,7 +1,12 @@
 import react from "react";
 
-const StepAvatar = () => {
-  return <div>Step Avatar component to be rendered</div>;
+const StepAvatar = ({ onNext }) => {
+  return (
+    <>
+      <div>StepAvatar component</div>
+      <button onClick={onNext}>Next</button>
+    </>
+  );
 };
 
 export default StepAvatar;

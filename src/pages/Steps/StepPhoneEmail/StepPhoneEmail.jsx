@@ -1,7 +1,12 @@
 import react from "react";
 
-const StepPhoneEmail = () => {
-  return <div>StepPhoneEmailComponent</div>;
+const StepPhoneEmail = ({ onNext }) => {
+  return (
+    <>
+      <div>StepPhoneEmail component</div>
+      <button onClick={onNext}>Next</button>
+    </>
+  );
 };
 
 export default StepPhoneEmail;
